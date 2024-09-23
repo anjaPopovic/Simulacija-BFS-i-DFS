@@ -1,36 +1,34 @@
-# Simulacija-BFS-i-DFS
-Projekat je jednostavna interaktivna JavaFX simulacija algoritama pretrage po širini (BFS) i po dubini (DFS) na grafovima.
+# BFS-and-DFS-Simulation
+The project is a simple interactive JavaFX simulation of the Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms on graphs.
 
-## 1. Uvod
+## 1. Introduction
 
-Ovaj projekat razvijen je u okviru predmeta CS203 - Algoritmi i strukture podataka, i predstavlja simulaciju algoritama pretrage po širini (BFS) i po dubini (DFS) na grafovima. Projekat je razvijen u IntelliJ IDEA razvojnom okruženju, koristeći JavaFX.
+This project was developed as part of the CS203 - Algorithms and Data Structures course, and it represents a simulation of the BFS and DFS algorithms on graphs. The project was developed in the IntelliJ IDEA development environment using JavaFX.
 
-Aplikacija omogućava korisnicima da interaktivno kreiraju grafove, dodaju i povezuju čvorove, i da vizualizuju rezultate pretrage BFS i DFS algoritmima. Korisnici mogu obrisati čvorove i resetovati scenu kako bi krenuli ispočetka.
+The application allows users to interactively create graphs, add and connect nodes, and visualize the results of the BFS and DFS search algorithms. Users can delete nodes and reset the scene to start over.
 
-## 2. Arhitektura
+## 2. Architecture
 
-Aplikacija je podeljena u nekoliko ključnih komponenti, koje obuhvataju manipulaciju grafovima, obradu događaja korisnika, i implementaciju BFS i DFS algoritama. 
+The application is divided into several key components, which include graph manipulation, user event handling, and the implementation of BFS and DFS algorithms.
 
-## 3. Metode aplikacije
+## 3. Application Methods
 
-Aplikacija sadrži niz metoda koje olakšavaju rad sa grafom:
+The application contains a set of methods that facilitate working with the graph:
 
-- **handleMouseClick:** Obrada klikova miša za kreiranje i selektovanje čvorova.
-- **addNode:** Dodavanje novog čvora na graf.
-- **handleMousePressed/Released:** Kreiranje grana između čvorova.
-- **deleteNode:** Brisanje čvora i njegovih grana.
-- **resetGraph:** Resetovanje cele scene.
-- **bfs/dfs:** Implementacija BFS i DFS algoritama.
-- **showAlert:** Prikaz rezultata pretrage u alert prozoru.
+- **handleMouseClick:** Handles mouse clicks for creating and selecting nodes.
+- **addNode:** Adds a new node to the graph.
+- **handleMousePressed/Released:** Creates edges between nodes.
+- **deleteNode:** Deletes a node and its edges.
+- **resetGraph:** Resets the entire scene.
+- **bfs/dfs:** Implements the BFS and DFS algorithms.
+- **showAlert:** Displays the search results in an alert window.
 
-## 4. Izgled aplikacije
+## 4. Application Layout
 
-Početna stranica aplikacije:
+The home page of the application:
 
 ![image](https://github.com/user-attachments/assets/73594172-8329-448e-8691-2770cf0cc9cb)
 
+## 5. Conclusion
 
-## 3. Zaključak
-
-Ovaj projekat uspešno demonstrira implementaciju i simulaciju BFS i DFS algoritama na grafovima, omogućavajući korisnicima interaktivno iskustvo u radu sa grafovima. Projekat zadovoljava sve zahteve definisane u okviru zadatka za predmet CS203.
-
+This project successfully demonstrates the implementation and simulation of BFS and DFS algorithms on graphs, providing users with an interactive experience when working with graphs. The project meets all the requirements defined within the task for the CS203 course.
